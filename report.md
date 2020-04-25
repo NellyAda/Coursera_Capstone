@@ -34,7 +34,14 @@ idx | District | Neighborhood | Latitude | Longitude
 
 Anologuously, we have to obtain the same information for Torrejón de Ardoz.
 
-Using Foursquare API, we will obtain the top 10 venues in each neighbourhood (including the target one) and with the obtained information we will be ready to process the data.
+Using Foursquare API, we will obtain a list of venues in each neighbourhood (including the target one) and with the obtained information we will be ready to process the data.
+
+idx | District | Neighborhood | N. Latitude | N.Longitude | Venue | Venue Longitude | Venue Latitude | Venue Category
+--- | -------- | ------------ | ----------- | ----------- | ----- | --------------- | -------------- | --------------
+0 | Centro | Palacio | 40.415 | -3.7133 | Coffee Starr | 40.415 | -3.712 | Coffee Shop
+1 | Centro | Embajadores | 40.408 | -3.69972 | Los amigos | 40.407 | -3.699 | Restaurant
+... | ... | ... | ... | ... | ... | ... | ... | ...
+130 | Barajas | Corralejos | 40.4644 | -3.59 | Lungo | 40.466 | -3.591 | Coffee Shop
 
 # Methodology
 
